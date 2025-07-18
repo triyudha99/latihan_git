@@ -1,0 +1,42 @@
+Langkah 1: Buat Repository di GitHub
+Buka https://github.com
+
+Klik New untuk membuat repository baru.
+
+Isi:
+
+Repository name (misal: latihan-git)
+
+Description (optional)
+
+Visibility: Public atau Private
+
+Centang “Initialize this repository with a README” (jika ingin langsung ada file README)
+
+Klik Create repository
+
+Langkah 2: Clone Repository ke Komputer (Pull pertama kali)
+Buka terminal/command prompt dan jalankan:
+
+bash
+Salin
+Edit
+git clone https://github.com/username/latihan-git.git
+Ganti username dan latihan-git sesuai nama akun dan repository kamu.
+git clone https://github.com/triyudha99/latihan_git.git
+Lalu masuk ke folder-nya:
+
+bash
+Salin
+Edit
+cd latihan-git
+
+Langkah: Tambahkan File ke Repo GitHub
+Misalnya:
+
+Kamu sudah punya repository GitHub latihan-git
+
+Sudah clone repo-nya ke lokal (git clone)
+
+Dan file yang ingin kamu tambahkan adalah data.txt
+1. Pindahkan file ke folder repo
