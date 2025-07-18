@@ -40,3 +40,32 @@ Sudah clone repo-nya ke lokal (git clone)
 
 Dan file yang ingin kamu tambahkan adalah data.txt
 1. Pindahkan file ke folder repo
+. Tambahkan file ke Git dan commit
+git add data.txt
+git commit -m "Menambahkan file data.txt"
+
+git push origin main
+Push ke GitHub
+bash
+Salin
+Edit
+git push origin main
+Ganti main dengan master jika branch kamu bernama master.
+
+Kalau kamu ingin menambahkan seluruh isi folder (misalnya folderku/), cukup:
+
+bash
+Salin
+Edit
+git add folderku/
+git commit -m "Menambahkan folderku dengan semua isinya"
+git push origin main
+
+Keterangan	Perintah Git
+Clone repo GitHub	git clone URL_REPO
+Cek status	git status
+Tambah file ke staging	git add .
+Commit perubahan	git commit -m "Pesan commit"
+Push ke GitHub	git push origin main
+Pull dari GitHub	git pull origin main
+Lihat log commit	git log
